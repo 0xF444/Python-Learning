@@ -1,3 +1,4 @@
+# --------------------------------------------------------------------------------
 # len() --> length of a string
 # strip() --> removes ALL spaces or a specific character if specified as an argument
 # lstrip() --> same as strip() but from the left side only
@@ -8,3 +9,10 @@
 # upper() --> captializes a given string
 # lower() --> makes the given string small
 # --------------------------------------------------------------------------------
+# split() --> returns a "list" of each string by the given argument: serprator and a max split
+# rsplit() --> starts delisting from the end (right) and is the same as split()
+# center() --> starts to center the original given string by a total number around a given character
+# count() --> counts how many of a given string argument, can take a start and an end
+# swapcase() --> swaps the cases of each character
+e = "I love python and php because hp is easy "
+print(e.startswith("S"))
