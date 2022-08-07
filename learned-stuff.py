@@ -14,5 +14,6 @@
 # center() --> starts to center the original given string by a total number around a given character
 # count() --> counts how many of a given string argument, can take a start and an end
 # swapcase() --> swaps the cases of each character
-e = "I love python and php because hp is easy "
-print(e.startswith("S"))
+# startswith() --> checks if the string starts with the argument, returns bool, can take a start and an end
+# endswith() --> same as startswith() but with the end
+# --------------------------------------------------------------------------------
