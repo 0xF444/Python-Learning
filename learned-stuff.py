@@ -30,7 +30,4 @@
 # IT IS LITERALLY THE SAME AS THE OLD WAY ONLY MINOR DIFFERENCES IN SYNTAX
 # {:_} seperates each 3 numbers with a _
 # {n} where n is the index of entries in .format() can organize what order
-#
-n = "Omar"
-a = 20
-print(f"My name is: {n} and my age is {a}")
+# format in newer versions: we add f to the beginning {variable name}
