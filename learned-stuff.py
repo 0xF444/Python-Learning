@@ -1,3 +1,4 @@
+#                                          STRINGS
 # --------------------------------------------------------------------------------
 # len() --> length of a string
 # strip() --> removes ALL spaces or a specific character if specified as an argument
@@ -17,3 +18,19 @@
 # startswith() --> checks if the string starts with the argument, returns bool, can take a start and an end
 # endswith() --> same as startswith() but with the end
 # --------------------------------------------------------------------------------
+# replace() --> takes an old value and replaces it with a new value, can be counted
+# join() --> joins a list or a tuple into a string by a given string
+# --------------------------------------------------------------------------------
+# %s = string placeholder, %d = decimal placeholder, %f float placeholder: LIKE C
+# Controlling floating point number: %.xf
+# Truncate String %.xs
+# OLD WAY
+# --------------------------------------------------------------------------------
+# {} is the place holder and we use .format(), :d or :s or :f/if "{}" is left empty then s
+# IT IS LITERALLY THE SAME AS THE OLD WAY ONLY MINOR DIFFERENCES IN SYNTAX
+# {:_} seperates each 3 numbers with a _
+# {n} where n is the index of entries in .format() can organize what order
+#
+n = "Omar"
+a = 20
+print(f"My name is: {n} and my age is {a}")
