@@ -45,3 +45,11 @@
 # {n} where n is the index of entries in .format() can organize what order
 # format in newer versions: we add f to the beginning {variable name}
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                       NUMBERS
+# --------------------------------------------------------------------------------
+# there are integers, floats and complex numbers
+# real part = .real, imaginary = .imag
+# we can convert between each type by using .datatype()
+# can't convert complex to anything
+# --------------------------------------------------------------------------------
+# arithmetic operators are the same as before with the addition of "**" and "//"
