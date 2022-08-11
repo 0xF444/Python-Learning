@@ -18,6 +18,19 @@
 # startswith() --> checks if the string starts with the argument, returns bool, can take a start and an end
 # endswith() --> same as startswith() but with the end
 # --------------------------------------------------------------------------------
+# index() --> finds the index of a substring, can take a start and an end
+# find() --> same as index but gives -1 when the substring is not found
+# rjust() --> fills the character to the right to given the width, can take a specific character
+# ljust() --> same as rjust() but does it to the left
+# splitlines() --> returns lines in a list
+# expandtabs() --> expands tabs "\t" and controls them with the given argument
+# istitle() --> checks if its a title, returns bool
+# isspace() --> checks if its a space, returns bool
+# islower() --> checks if its lower, returns bool
+# isupper() --> checks if its upper, returns bool
+# isidentifier() --> checks if its a valid variable name, returns bool
+# isalpha() --> if it's an alphabetical character
+# isalnum --> if it's an alphabetical OR a numerical character
 # replace() --> takes an old value and replaces it with a new value, can be counted
 # join() --> joins a list or a tuple into a string by a given string
 # --------------------------------------------------------------------------------
