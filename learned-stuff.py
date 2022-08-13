@@ -53,3 +53,17 @@
 # can't convert complex to anything
 # --------------------------------------------------------------------------------
 # arithmetic operators are the same as before with the addition of "**" and "//"
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                           LISTS
+# append() --> appends an element to a given list lastly: TREATS AN ELEMENT LIST AS ONE ELEMENT
+# extend() --> extends elements to a given list: each element at its own
+# remove() --> removes the first occurence of an element
+# sort() --> sorts list's element numerically or alphabetically, can take a "reversed" argument
+# reverse() --> reverses the elements only
+# clear() --> empties a list
+# copy() --> returns a shallow copy, does not care about the main list
+# count() --> counts the occurence of an element
+# index() --> returns the index of the argument if found in the list
+# insert() --> inserts an object at the given (index - 1)
+# pop() --> removes and returns item at index, iterates the list indefinitely
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------------
