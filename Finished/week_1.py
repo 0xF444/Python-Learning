@@ -1,8 +1,8 @@
 # test.py
 # Written by Omar Mokhtar
-a = "Omar Mokhtar"
-b = "20"
-c = "Menoufia, Egypt"
+# a = "Omar Mokhtar"
+# b = "20"
+# c = "Menoufia, Egypt"
 # print("\"Name: "+a+"\"")
 # print("\"Age: "+b+"\"")
 # print("\"Country: "+c+"\"")
