@@ -1,5 +1,4 @@
 #                                          STRINGS
-# --------------------------------------------------------------------------------
 # len() --> length of a string
 # strip() --> removes ALL spaces or a specific character if specified as an argument
 # lstrip() --> same as strip() but from the left side only
@@ -46,7 +45,6 @@
 # format in newer versions: we add f to the beginning {variable name}
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #                                       NUMBERS
-# --------------------------------------------------------------------------------
 # there are integers, floats and complex numbers
 # real part = .real, imaginary = .imag
 # we can convert between each type by using .datatype()
@@ -67,3 +65,11 @@
 # insert() --> inserts an object at the given (index - 1)
 # pop() --> removes and returns item at index, iterates the list indefinitely
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                          TUPLES
+# same as lists, but cannot be changed
+# to assign one element tuple we add a ","
+# can concatenate any tuple into one tuple
+# can repeat strings, lists or tuples by "*"
+# count() --> counts the occurnece of an element
+# index() --> the index of first occurence of an element
+# destructing --> we can copy a tuple element by element to variables and we can ignore certain elements by "_"
