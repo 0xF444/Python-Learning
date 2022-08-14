@@ -31,3 +31,19 @@
 # print(110//11)
 # print(97 // 20)
 # ----------------------------------------------------------------------------------
+# LISTS ASSIGNMENT
+# --------------------
+# Assignment #1
+# friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+# print(friends[0]) #Method One
+# print(friends[-5]) #Method Two
+# print(friends[4]) #Method One
+# print(friends[-1]) #Method Two
+# ----------------------------------------------------------------------------------
+# Assignment #2
+# friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+# print(friends[0:5:2])
+# print(friends[1:5:2])
+# ----------------------------------------------------------------------------------
+# Assignment #3
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
