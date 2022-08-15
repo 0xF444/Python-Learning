@@ -89,6 +89,8 @@
 # friends = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
 # print(len(friends))
 # ----------------------------------------------------------------------------------
-technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
-print(technologies[-1][0])
-print(technologies[-1][2])
+# Assignment #10
+# technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
+# print(technologies[-1][0])
+# print(technologies[-1][-1])
+# ----------------------------------------------------------------------------------
