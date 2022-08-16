@@ -94,3 +94,17 @@
 # print(technologies[-1][0])
 # print(technologies[-1][-1])
 # ----------------------------------------------------------------------------------
+# TUPLES ASSIGNMENT
+# --------------------
+# Assignment #1
+# name = "Omar",
+# print(name[0])
+# print(type(name))
+# ----------------------------------------------------------------------------------
+friends = ("Osama", "Ahmed", "Sayed")
+friends = list(friends)
+friends[0] = "Elzero"
+friends = tuple(friends)
+print(friends)
+print(type(friends))
+print(len(friends))
