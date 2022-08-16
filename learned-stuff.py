@@ -75,6 +75,16 @@
 # destructing --> we can copy a tuple element by element to variables and we can ignore certain elements by "_"
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #                                           SETS
-# {}
-test = {"Osama", "Ahmed", 100}
-print(test)
+# enclosed by {}
+# they're not in order, nor indexed (inaccessable through index)
+# cannot be indexed nor sliced
+# can only take "Immutable" elements:(Numbers, Strings, Tuples)
+# Each item is unique (if the same elements exists within two places, only one stays)
+# clear() --> clears the entire set
+# union() --> unifies two or more sets in one set, can also be done by "|"
+# add() --> adds a new element to the set
+# copy() --> takes a shallow copy (does not the affect the original set)
+# remove() --> removes an existing element (errors if element does not exist)
+# discard() --> can remove an existing or nonexisting element
+# pop() --> returns a random element from the set
+# update () --> unifies the set itself with its previous entries plus another set, much like union()
