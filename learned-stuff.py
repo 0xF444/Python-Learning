@@ -73,3 +73,8 @@
 # count() --> counts the occurnece of an element
 # index() --> the index of first occurence of an element
 # destructing --> we can copy a tuple element by element to variables and we can ignore certain elements by "_"
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                           SETS
+# {}
+test = {"Osama", "Ahmed", 100}
+print(test)
