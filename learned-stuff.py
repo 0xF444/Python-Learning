@@ -87,4 +87,11 @@
 # remove() --> removes an existing element (errors if element does not exist)
 # discard() --> can remove an existing or nonexisting element
 # pop() --> returns a random element from the set
-# update () --> unifies the set itself with its previous entries plus another set, much like union()
+# update() --> unifies the set itself with its previous entries plus another set, much like union()
+# difference() --> returns the elements that are not in the argument (a-b)
+# difference_update() --> is the same as difference() BUT ITERATES THE ORIGINAL SET AND UPDATES IT WITH THE DIFFERENCE ONLY
+# intersection() --> returns whats common between two sets
+# intersection_update() --> same as intersection() but updates the original set with the intersection ONLY
+# symmetric_difference() --> returns the elements that do not exist in BOTH sets
+# symmetric_difference_update*() --> same as symmetric_difference() but updates with the result of that function
+
