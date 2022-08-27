@@ -41,3 +41,5 @@
 # input() --> stops executing until an input is entered from stdin
 # chain method --> you can chain methods by dots normally
 # --------------
+# short if: Condition if True | if condition | Condition if False
+# membership operators: in/not in "bool operators"
