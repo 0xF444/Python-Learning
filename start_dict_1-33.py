@@ -121,7 +121,4 @@
 #                                                       LOOPS
 # (while) loop is the same as before, but there is the additon of "else" which executes as soon as the condition goes false
 # it is way different than executing after the loop's finished
-# for item in iterable_object: do something
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for number in numbers:
-    print(number)
+# for item in iterable_object: do something, used for iterables mostly
