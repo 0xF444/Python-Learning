@@ -34,6 +34,7 @@
 # print(f"Your friends have been successfully printed, and {ignored} have been ignored.\n")
 # ################################
 # Assignment #3
-skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
-while skills:
-    print(skills)
+# skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
+# count = len(skills)
+# while skills:
+#     print(skills); 
