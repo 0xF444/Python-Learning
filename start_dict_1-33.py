@@ -118,7 +118,3 @@
 # items() --> returns the items of a dict in a list and each element of that list is a tuple of (key,value), it also follows the original dict
 # fromkeys() --> must be surpassed by "dict" then takes "a" as key iterable and "b" as value
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#                                                       LOOPS
-# (while) loop is the same as before, but there is the additon of "else" which executes as soon as the condition goes false
-# it is way different than executing after the loop's finished
-# for item in iterable_object: do something, used for iterables mostly
