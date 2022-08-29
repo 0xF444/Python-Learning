@@ -43,3 +43,13 @@
 # --------------
 # short if: Condition if True | if condition | Condition if False
 # membership operators: in/not in "bool operators"
+# --------------
+#                                                       LOOPS
+# (while) loop is the same as before, but there is the additon of "else" which executes as soon as the condition goes false
+# it is way different than executing after the loop's finished
+# for item in iterable_object: do something, used for iterables mostly
+# break, continue and pass:
+# continue stops the current iteration and starts at the loop again
+# break exits from the loop entirely
+# pass is mainly used for testing as it "passes" the loop or the if statement
+
