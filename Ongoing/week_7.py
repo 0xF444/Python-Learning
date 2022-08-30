@@ -35,6 +35,52 @@
 # ################################
 # Assignment #3
 # skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
-# count = len(skills)
 # while skills:
-#     print(skills); 
+#     print(skills.pop()) 
+# ################################
+# Assignment #4
+# friends = []
+# print("You may only enter 4 friends.")
+# count = 0
+# while count <4:
+#     name = input(f"Please enter friend #{count+1}.\n").strip()
+#     if name.isupper():
+#         print("Wrong entry, please try again.")
+#         continue
+#     elif name[0].islower():
+#         print("First letter is small, captializing..")
+#         friends.append(name.capitalize())
+#         print("Friend added.\n")
+#         count +=1
+#     else:
+#         friends.append(name)
+#         print("Friend added.\n")
+#         count += 1
+# else:
+#     print("4 friends have been added succesfully.")
+#     print(friends)
+# ################################
+# Assignment #1 --> Second Sheet
+# my_nums = [15, 81, 5, 17, 20, 21, 13]
+# my_nums.sort(reverse=True)
+# count = 1
+# for num in my_nums:
+#     if num%5==0:
+#         print(f"{count} => {num} ")
+#         count +=1
+    
+# print("Program finished sucessfully.\n")
+# ################################
+# Assignment #2 --> Second Sheet
+# for num in range(1,21):
+#     num = str(num)
+#     if num == "6" or num == "8" or num == "12":
+#         continue
+#     else:
+#         print(num.zfill(2))
+        
+# print("All numbers printed successfully.\n")
+# # ################################
+
+
+
