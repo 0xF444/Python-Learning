@@ -53,5 +53,8 @@
 # continue stops the current iteration and starts at the loop again
 # break exits from the loop entirely
 # pass is mainly used for testing as it "passes" the loop or the if statement
+# range() ==> normally starts from 0 and stops before a given number, we can give it our own range of numbers (start to finish) and also the step.
 # we can use .items in dictionary to loop it using two items representing its key and value
+# we can use enumerate() to get the index and also the value of a certain object (list, tuple, etc)
+# "Pythonic term" ==> code that doesn't just get the syntax right but also follows the conventions of the python community which makes it easier to read and understand.
 
