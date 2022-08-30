@@ -80,7 +80,74 @@
 #         print(num.zfill(2))
         
 # print("All numbers printed successfully.\n")
-# # ################################
-
-
-
+# ################################
+# Assignment #3 --> Second Sheet
+# my_ranks = {
+# 'Math': 'A',
+# "Science": 'B',
+# 'Drawing': 'A',
+# 'Sports': 'C'
+# }
+# rank_equiv={
+#     'A':100,
+#     'B': 80,
+#     'C': 40
+# } # reference for each rank's value
+# sum = 0
+# for mainkey,mainvalue in my_ranks.items():
+#     print(f"My rank in {mainkey} is {mainvalue} and this is equal to {rank_equiv[mainvalue]} points.")
+#     sum += rank_equiv[mainvalue]
+# print(f"Total points are exactly {sum}.")
+# ################################
+# Assignment #4 --> Second Sheet
+# students = {
+# "Ahmed": {
+#     "Math": "A",
+#     "Science": "D",
+#     "Draw": "B",
+#     "Sports": "C",
+#     "Thinking": "A"
+# },
+# "Sayed": {
+#     "Math": "B",
+#     "Science": "B",
+#     "Draw": "B",
+#     "Sports": "D",
+#     "Thinking": "A"
+# },
+# "Mahmoud": {
+#     "Math": "D",
+#     "Science": "A",
+#     "Draw": "A",
+#     "Sports": "B",
+#     "Thinking": "B"
+# }
+# }
+# rank_ref={
+#     'A':100,
+#     'B':80,
+#     'C':40,
+#     'D':20
+# }
+# # using .items()
+# for primkey,primvalue in students.items():
+#     sum = 0
+#     print("------------------------------")
+#     print(f"-- Student Name => {primkey}")
+#     print("------------------------------")
+#     for secondkey,secondvalue in students[primkey].items():
+#         print(f"- {secondkey} => {rank_ref[secondvalue]} points.")
+#         sum += rank_ref[secondvalue]
+#     print(f"Total points for {primkey} is {sum}")
+# print("="*80)
+# # using normal approach
+# for names in students:
+#     sum = 0
+#     print("------------------------------")
+#     print(f"-- Student Name => {primkey}")
+#     print("------------------------------")
+#     for rank in students[names]:
+#         print(f"- {rank} => {rank_ref[students[names][rank]]} points.")
+#         sum +=rank_ref[students[names][rank]]
+#     print(f"Total points for {names} is {sum}")
+# ################################
