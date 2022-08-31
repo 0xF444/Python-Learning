@@ -57,4 +57,13 @@
 # we can use .items in dictionary to loop it using two items representing its key and value
 # we can use enumerate() to get the index and also the value of a certain object (list, tuple, etc)
 # "Pythonic term" ==> code that doesn't just get the syntax right but also follows the conventions of the python community which makes it easier to read and understand.
-
+# you can unpack the arguments by using a "*", can be used for iterables when you don't know how many indices are there.
+# (*parameter) can be referred to as EVERY argument given to the function, only 1 *parameter allowed
+# We can assign a default value to the function parameter which is useful if no argument is given
+# if we assign a default value to the FIRST parameter then all adjacent parameters MUST have a default parameter
+# so if we wanted ONE default value it should be the last parameter
+# (*parameter) is basically a TUPLE of the given parameters while (**parameter) is a DICTIONARY.
+# (**parameter) needs a KEY and a VALUE for each argument
+# (**argument) unpacks the given dict for the function to operate on
+# (*parameter) unpacks a tuple, **parameter unpacks a dict.
+# "global" makes a variable global through out the program, overwriting any previous global values
