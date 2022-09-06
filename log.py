@@ -31,6 +31,10 @@
 # .tell() tells you where the cursor is
 #! IMPORTANT NOTE: THE LINE BREAK CODE IN LINUX IS JUST ONE CHARACTER BUT IN WINDOWS IT'S TWO.
 # .seek() sends the cursor to a given offset
-# we need the os module for file manipulation 
-# os.remove(<filepath>) removes the file 
-
+# we need the os module for file manipulation
+# os.remove(<filepath>) removes the file
+# we can make the file handled in either text mode or binary mode (image)
+# os.path.relpath prints the relative path
+# __file__ is a variable for the path of the current file we're opening.
+# os.listdir() allows you to list the directory content
+# If you need to read the data again, you need to replenish the source with the same data again, meaning that you need to read the file again.
