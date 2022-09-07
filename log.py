@@ -38,3 +38,20 @@
 # __file__ is a variable for the path of the current file we're opening.
 # os.listdir() allows you to list the directory content
 # If you need to read the data again, you need to replenish the source with the same data again, meaning that you need to read the file again.
+#TODO: REVISE ON FILES HANDLING AGAIN.
+# ------------------------------------
+# Built in functions:
+# all() --> takes an iterable, returns true for all "true" values in the iterable
+# any() --> takes an iterable, returns true for at least ONE "true" value in the iterable
+# bin() --> returns the binary of an int
+# id() --> returns the "address" of an object, each object has a unique id
+# sum() --> takes an iterable and the start, prints the sum of the iterable's elements
+# round() --> takes a number, and a number of digits after the decimal point, rounds the number accordingly
+# range() --> takes a start, end and a step
+# print() --> its default seperator is " ", we can change it by making <sep=>, we can seperate each message with a comma in a function normally
+#* print can also take a second value called <end=> so we can control what the string ends up with
+# abs() --> returns the absolute the value of an integer
+# pow() --> takes a base, exp and mod returns base**exp or (base**exp) % mod if provided
+# min() --> returns the least element, if given by hand or if they are in an iterator 
+#* max() --> same as min but gets you the maximum
+#* slice() --> same as data slicing, requires a start and stop, can take a step [start:stop:end]
