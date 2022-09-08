@@ -55,3 +55,13 @@
 # min() --> returns the least element, if given by hand or if they are in an iterator 
 #* max() --> same as min but gets you the maximum
 #* slice() --> same as data slicing, requires a start and stop, can take a step [start:stop:end]
+# map() --> takes a function and an iterator, basically applies the function to each element in the iterable, can be looped over and be added to a variable
+#* can also take lambda function in the function argument
+#! Here, we use can use lambda functions and map() to iterate over an iterable without needing to have the function in our system
+# filter() --> has the same concept for map() BUT it returns the elements in the iterable that make the function true NOT THE VALUE ITSELF
+#! basically, filter() is the same as map but only returns the elements that make the function TRUE
+# to use reduce() we must use a module functool
+# reduce() basically takes the result of the first two arguments and makes it an argument in the next iteration
+# enumerate() basically accompanies each element in an iterator with a number <counter> instead of defining a seperate counter
+# help() basically prints HOW to use a function
+# reversed() reverses your iterable
