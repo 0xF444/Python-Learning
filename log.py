@@ -65,3 +65,31 @@
 # enumerate() basically accompanies each element in an iterator with a number <counter> instead of defining a seperate counter
 # help() basically prints HOW to use a function
 # reversed() reverses your iterable
+# ------------------------------------
+# a module is a file that contains multiple functions
+# you can import multiple modules, create them etc
+# they save your time
+# random module prints random information, there is a function .random
+#* to call a function from an imported module: module.function()
+# to show all the functions in a module we use dir()
+# to import a function from a module, use the "from" keyword
+# we can use the * wildcard to import every function within the function
+#! ofc when the function is imported, we can't use module.function() to call it, we then use the function itself
+# to create a module, we create a file .py that contains all our functions
+# sys module contains a function called path that prints out all the system paths that python looks for any modules including the path to the directory where the file is executed
+# we can append a path to the pathes: sys.path.append()
+# we can make an alias for the module import <module name> as <alias name>
+# module is a file that contains functions, packages are MULTIPLE MODULES
+# package manager for python: pip
+# ------------------------------------------
+# -- Modules => Install External Packages --
+# ------------------------------------------
+# [1] Module vs Package
+# [2] External Packages Downloaded From The Internet
+# [3] You Can Install Packages With Python Package Manager PIP
+# [4] PIP Install the Package and Its Dependencies
+# [5] Modules List "https://docs.python.org/3/py-modindex.html"
+# [6] Packages and Modules Directory "https://pypi.org/"
+# [7] PIP Manual "https://pip.pypa.io/en/stable/reference/pip_install/"
+# ---------------------------------------------------------------------
+# to install a package: pip install <name>
