@@ -93,3 +93,15 @@
 # [7] PIP Manual "https://pip.pypa.io/en/stable/reference/pip_install/"
 # ---------------------------------------------------------------------
 # to install a package: pip install <name>
+# ---------------------------------------------------------------------
+# DATE AND TIME: import datetime
+# to print the current time: datetime.datetime.now()
+# to print the current year or anything: datetime.datetime.now().year<anything>
+# to print start and end of date: datetime.datetime.max datetime.datetime.min
+# i think that to use the datetime module it needs to be orderized, meaning that it just follows a certain pattern for what you want
+# strftime prints the time according to your format using a directive, a directive basically is a placeholder for information, much like c
+# strftime.org
+# an iterable is basically an object that contains data that can be "looped over"
+# we can generate an "iterator" that well, iterates using the iter()
+# next() --> returns the next element in the iterator
+# when finished it returns a "StopIteration"
