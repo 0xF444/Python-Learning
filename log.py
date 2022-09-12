@@ -105,3 +105,7 @@
 # we can generate an "iterator" that well, iterates using the iter()
 # next() --> returns the next element in the iterator
 # when finished it returns a "StopIteration"
+# a generator when called only gives you the control and returns an iterator
+# once a value is normally generated through generator call, it doesn't start over when called again, it resumes where it last left off
+# using next() we can walk through each value
+# Decorator => Meta Programming, used to enchance functions' behaviour
