@@ -105,3 +105,7 @@
 # we can generate an "iterator" that well, iterates using the iter()
 # next() --> returns the next element in the iterator
 # when finished it returns a "StopIteration"
+# a decorator decorates how a function is executed
+# usually by defining a function with a "function argument" as its parameter then defining a nested function where all the decoration happens then executing the parameter
+# if we wanted a function after decoration, we use sugar syntaxing: adding an "@" then the decorator name ABOVE the function definition
+# there is a module called time from which we can import time() that saves the time of now, can be used for speed testing
