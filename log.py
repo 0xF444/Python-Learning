@@ -38,7 +38,7 @@
 # __file__ is a variable for the path of the current file we're opening.
 # os.listdir() allows you to list the directory content
 # If you need to read the data again, you need to replenish the source with the same data again, meaning that you need to read the file again.
-#TODO: REVISE ON FILES HANDLING AGAIN.
+# TODO: REVISE ON FILES HANDLING AGAIN.
 # ------------------------------------
 # Built in functions:
 # all() --> takes an iterable, returns true for all "true" values in the iterable
@@ -49,14 +49,14 @@
 # round() --> takes a number, and a number of digits after the decimal point, rounds the number accordingly
 # range() --> takes a start, end and a step
 # print() --> its default seperator is " ", we can change it by making <sep=>, we can seperate each message with a comma in a function normally
-#* print can also take a second value called <end=> so we can control what the string ends up with
+# * print can also take a second value called <end=> so we can control what the string ends up with
 # abs() --> returns the absolute the value of an integer
 # pow() --> takes a base, exp and mod returns base**exp or (base**exp) % mod if provided
-# min() --> returns the least element, if given by hand or if they are in an iterator 
-#* max() --> same as min but gets you the maximum
-#* slice() --> same as data slicing, requires a start and stop, can take a step [start:stop:end]
+# min() --> returns the least element, if given by hand or if they are in an iterator
+# * max() --> same as min but gets you the maximum
+# * slice() --> same as data slicing, requires a start and stop, can take a step [start:stop:end]
 # map() --> takes a function and an iterator, basically applies the function to each element in the iterable, can be looped over and be added to a variable
-#* can also take lambda function in the function argument
+# * can also take lambda function in the function argument
 #! Here, we use can use lambda functions and map() to iterate over an iterable without needing to have the function in our system
 # filter() --> has the same concept for map() BUT it returns the elements in the iterable that make the function true NOT THE VALUE ITSELF
 #! basically, filter() is the same as map but only returns the elements that make the function TRUE
@@ -70,7 +70,7 @@
 # you can import multiple modules, create them etc
 # they save your time
 # random module prints random information, there is a function .random
-#* to call a function from an imported module: module.function()
+# * to call a function from an imported module: module.function()
 # to show all the functions in a module we use dir()
 # to import a function from a module, use the "from" keyword
 # we can use the * wildcard to import every function within the function
@@ -109,3 +109,7 @@
 # usually by defining a function with a "function argument" as its parameter then defining a nested function where all the decoration happens then executing the parameter
 # if we wanted a function after decoration, we use sugar syntaxing: adding an "@" then the decorator name ABOVE the function definition
 # there is a module called time from which we can import time() that saves the time of now, can be used for speed testing
+# a generator when called only gives you the control and returns an iterator
+# once a value is normally generated through generator call, it doesn't start over when called again, it resumes where it last left off
+# using next() we can walk through each value
+# Decorator => Meta Programming, used to enchance functions' behaviour
