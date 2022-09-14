@@ -31,7 +31,7 @@
 # isalpha() --> if it's an alphabetical character
 # isalnum --> if it's an alphabetical OR a numerical character
 # replace() --> takes an old value and replaces it with a new value, can be counted
-# join() --> joins a list or a tuple into a string by a given string
+# join() --> joins a list or a tuple into a string and each element is seperated by the paramater given
 # --------------------------------------------------------------------------------
 # %s = string placeholder, %d = decimal placeholder, %f float placeholder: LIKE C
 # Controlling floating point number: %.xf
