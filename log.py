@@ -142,3 +142,5 @@
 #! the debugger is very important 
 # breakpoint is a point where the debugger stops
 # type hinting gives you a "hint": "-> type"
+# pillow coordinate system: (x1,y1) for the top left corner -> default (0,0)| (x2,y2) for the bottom right corner -> default (xres,yres) where as res is the resolution of the image
+# these coordinate systems make a box 
