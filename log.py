@@ -110,6 +110,35 @@
 # if we wanted a function after decoration, we use sugar syntaxing: adding an "@" then the decorator name ABOVE the function definition
 # there is a module called time from which we can import time() that saves the time of now, can be used for speed testing
 # a generator when called only gives you the control and returns an iterator
+# In computer science, a generator is a routine that can be used to control the iteration behaviour of a loop. All generators are also iterators. A generator is very similar to a function that returns an array, in that a generator has parameters, can be called, and generates a sequence of values
 # once a value is normally generated through generator call, it doesn't start over when called again, it resumes where it last left off
 # using next() we can walk through each value
 # Decorator => Meta Programming, used to enchance functions' behaviour
+# Decorators are used to change the "capability" of the function say: logging, test performance, caching etc
+# https://strftime.org => Date Formatter
+# https://www.freecodecamp.org/news/python-decorators-explained-with-examples/ => Decorators
+# https://www.programiz.com/python-programming/generator => Generators
+# zip() -> basically "zips" iterables with the length of the least lengthed object
+# the Pillow module contains image manipulation
+# Image.open(<path>) opens the image
+# var.show() shows the image
+# boxes can be defined as (left,upper,right,lower), the origin point is (0,0) in the upper left corner
+# to convert to greyscale use .convert("L")
+# A docstring is used to inform of what the function/class does, using ''' '''
+# a Docstring is NOT a comment
+# we can access the docstring by using the variable __doc__ or help()
+# commenting is basically adding notes, while documenting is a description of a certain function/class
+# pylint helps you write clearer code suitable for corporations
+# pylint.exe <path of your program> to "lint" your code
+# Exceptions are a runtime error reporting mechanism THAT STOPS YOUR PROGRAM IF EXECUTED
+# We can create our own exception by using raise Exception() or raise ValueError, etc
+# https://docs.python.org/3/library/exceptions.html => Python Exceptions
+#* pip packages downloaded (to be downloaded on my linux machine): termcolor,pyfiglet,PIL(pillow),pylint
+# "try" tests your code
+# "except" executes its code snippet if the code snippet in "try" raises an error (ANY ERROR)
+# "else" is used if there's no errors (duh lol) *might not be needed*
+# "finally" executes its code snippet NO MATTER WHAT (it does not care lol)
+#* we can give "except" the exception type => except <exception type>
+#! the debugger is very important 
+# breakpoint is a point where the debugger stops
+# type hinting gives you a "hint": "-> type"
