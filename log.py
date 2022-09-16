@@ -133,14 +133,14 @@
 # Exceptions are a runtime error reporting mechanism THAT STOPS YOUR PROGRAM IF EXECUTED
 # We can create our own exception by using raise Exception() or raise ValueError, etc
 # https://docs.python.org/3/library/exceptions.html => Python Exceptions
-#* pip packages downloaded (to be downloaded on my linux machine): termcolor,pyfiglet,PIL(pillow),pylint
+# * pip packages downloaded (to be downloaded on my linux machine): termcolor,pyfiglet,PIL(pillow),pylint
 # "try" tests your code
 # "except" executes its code snippet if the code snippet in "try" raises an error (ANY ERROR)
 # "else" is used if there's no errors (duh lol) *might not be needed*
 # "finally" executes its code snippet NO MATTER WHAT (it does not care lol)
-#* we can give "except" the exception type => except <exception type>
-#! the debugger is very important 
+# * we can give "except" the exception type => except <exception type>
+#! the debugger is very important
 # breakpoint is a point where the debugger stops
 # type hinting gives you a "hint": "-> type"
 # pillow coordinate system: (x1,y1) for the top left corner -> default (0,0)| (x2,y2) for the bottom right corner -> default (xres,yres) where as res is the resolution of the image
-# these coordinate systems make a box 
+# these coordinate systems make a box
