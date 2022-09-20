@@ -16,3 +16,20 @@
 # re.group(<group number>) returns the group that got matched
 # re.groups() returns all the groups that got matched
 # * re flags: IGNORECASE (case insensitive), VERBOSE (allows commenting within the regular expression), DOTALL (since "." matches everything but the newline, this allows to match the newline as well), MULTILINE (default is it searchs from the start of the line the end of the line, this allows to search all lines)
+# ----------------
+# an object consists of attributes: things that "define" the object; and also consists of methods: what the object DOES
+# a class can be defined as a blueprint/object constructor
+# class instantiate means to create an instance of your object
+# class keyword is used to define classes, class names are usually written in PascalCase (UpperCamelCase)
+# each time you create an object from class, python uses a method called __init__ (stands for initialize)
+# any method that starts and ends with an underscore is called a dunder/magic method
+# * we define our first method in our class called __init__ with a MUST parameter called self (current instance of the object)
+# self can be anything
+# to create an object we use new()
+# syntax
+# class Name:
+#     Constructor => Does the instantation (Creates instance from a class)
+#     Each instance is a seperate object
+#     def __init__(self, other data) -> None:
+#         body of function
+# to know which variable is under which class we use __class__
