@@ -33,3 +33,13 @@
 #     def __init__(self, other data) -> None:
 #         body of function
 # to know which variable is under which class we use __class__
+# the self parameter points at the newly created object? => the self parameter points at the current instance in which the object has taken from
+# we can add attributes to the constructor so that each time we make an object out of the class it comes predefined with it
+# also, we can use this information so that every object of the class has a specific data for each instance
+# each attribute with the self. is now some sort of data
+# with each object created we can find these attributes by using "dir"
+# so instance attributes are defined within the constructor (the __init__ function) which makes sense because of the init name as parameters
+# as for methods, it must have self as a parameter so that it points at the current instance of the class
+# again: to create attributes we define them within the __init__ function as parameters and we use "self" to refer to the object that will be taken from the class
+# methods are defined as the __init__ function with the exception of having self as a parameter
+# other methods can access the class itself, its parameters, or other methods
