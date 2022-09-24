@@ -66,4 +66,6 @@
 # normally when we print an instance of a class we get unreadable stuff, __str__ runs if we print the class itself
 # __len__ is called when len() is used on the instance, an exception is raised if there's no __len__ and len() is used on the instance
 # * don't forget that you can access instance attributes by using the name of the instance and the dot operator
-# inheritance:
+# inheritance: we use it to be able to "inherit" other classes' methods so we wouldn't rewrite it
+# we can inherit other classes' methods by putting their names witin the class defintion
+# example: class child(parent):
