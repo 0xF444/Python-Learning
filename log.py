@@ -45,5 +45,25 @@
 # other methods can access the class itself, its parameters, or other methods
 #!!!!!!!! a class attribute is shared throughout EVERY OBJECT CREATED, unlike instance attribute which is unique to each instance
 # class attributes are defined outside the __init__ but within the class
-#* __init__ function is usually referred to as the constructor
+# * __init__ function is usually referred to as the constructor
 # class attributes are accessed by classname.()
+# class methods are within the class, marked by a decorator @classmethod
+# it MUST take the "cls" parameter unlike the "self" parameter to indicate its a class method NOT an instance method
+#! note that any method created within the class must take ATLEAST ONE PARAMETER DEFINING ITS TYPE
+# to point to anything within the class within the class method we use cls now.
+# * in reality, when instance methods are called, python does this in the background classname.method(<the name of the object>) where the name of the object is a parameter called self
+# static methods do not take parameters necessarily, to create a static method the method must be succeded by the decorator @staticmethod
+# we use static methods to relate to the class? static methods CANNOT ACCESS either the instance stuff or the class stuff
+# so instance methods can modify class/instance attributes but static methods cannot modify any of those
+# as for class methods: they can access class attributes or methods only BUT NOT THE INSTANCES
+#! MAYBE THE TERMS "INSTANCE" "CLASS" "STATIC" ARE SOMEWHAT RELATED TO THE "PUBLIC" AND "PRIVATE" FROM OTHER LANGUAGES!
+#! THE "PRIVACY" OF EACH METHOD OR ATTRIBTUE
+# magic methods:
+# __init__ is always called automatically when an object is created
+# __class__ returns which class the instance belongs to
+#! variables are actually instances of classes because datatypes are actually classes
+# __str__ returns human readable output
+# normally when we print an instance of a class we get unreadable stuff, __str__ runs if we print the class itself
+# __len__ is called when len() is used on the instance, an exception is raised if there's no __len__ and len() is used on the instance
+# * don't forget that you can access instance attributes by using the name of the instance and the dot operator
+# inheritance:
