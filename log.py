@@ -43,3 +43,7 @@
 # again: to create attributes we define them within the __init__ function as parameters and we use "self" to refer to the object that will be taken from the class
 # methods are defined as the __init__ function with the exception of having self as a parameter
 # other methods can access the class itself, its parameters, or other methods
+#!!!!!!!! a class attribute is shared throughout EVERY OBJECT CREATED, unlike instance attribute which is unique to each instance
+# class attributes are defined outside the __init__ but within the class
+#* __init__ function is usually referred to as the constructor
+# class attributes are accessed by classname.()
