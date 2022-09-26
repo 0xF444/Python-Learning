@@ -69,3 +69,32 @@
 # inheritance: we use it to be able to "inherit" other classes' methods so we wouldn't rewrite it
 # we can inherit other classes' methods by putting their names witin the class defintion
 # example: class child(parent):
+# * when we use the __init__ function in the child class, it overrides the __init__ function from the parent which cannot be inherited
+# to overcome this we use: classname.__init__ and thus we're calling the init function from the parent as our __init__ function for the child
+# another way to do this is to write super().__init__(<attributes we want to inherit>)
+# so inheritance is a way to not rewrite code, you can do whatever you want in the child class
+# we can override a method in the base class by redefining it in the child class
+# * Method overriding, in object-oriented programming, is a language feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its superclasses or parent classes.
+# multiple inheritance uses the same princple as single inheritance BUT order may matter here so to know our order we use .mro
+# mro stands for method resolution order and it prints the order of each class that it takes properties from
+# if we inherit from a base class to a derived one, if we derive from that derived one we derive from the original base class (logic)
+# polymorphism is the concept that a method can do DIFFERENT things from what it was defined, one method to do multiple things
+# the idea behind polymorphism IS method overriding but with style (for now)
+# encapsulation is a way to restrict your data in attributes and methods' access
+# public: attributes and methods are accessible inside and outside the class and from everywhere (since we started oop all data were public)
+# * "attributes" are the same as "variables" or "properties": its only a matter of prespective
+# protected: data can only be accessed within the class or subclasses (avoiding outside-class modification)| prefixed with _
+# TODO: PYTHON DOES NOT SUPPORT DATA PROTECTION, WE ONLY USE THESE PREFIXES AS A PROGRAMMER NOTE THAT HAS BEEN HIGHLY AGREED ON
+# protected: data can only be accessed within the class ONLY (where it was first defined)| prefixed with __
+#! the idea of encapsulation is that of a pill: you don't know the content inside but you know what its gonna do | you know the method but you don't know what runs inside it
+#! encapsulation could be thought of as an electronic product: you don't know the inside but you know what it does
+# sadly, we can access private data using ._classname__identifier()
+# * here we learn the naming convention and what programmers use
+# getters and setters are internal methods within the class that can get/set the "private" data, that you normally can't access
+# * set modifies the data, get prints it out
+# @property basically makes methods to be properties of the class (usage not yet understandable)
+# to use abstract classes and methods we use the "abc" module and import ABCMeta and abstractmethod
+#! we can think of abstract classes and methods as a "blueprint" for other classes to inherit from | when we don't want the base class to do anything but other classes inheriting from it do
+# an abstract class can be thought of a building block that other children classes must obey while itself does not have to be functional for the main abstract class
+# to make a class abstract: classname(metaclass=ABCMeta)
+# to make a method abstract, we use the decorator @abstractmethod
