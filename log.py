@@ -98,3 +98,17 @@
 # an abstract class can be thought of a building block that other children classes must obey while itself does not have to be functional for the main abstract class
 # to make a class abstract: classname(metaclass=ABCMeta)
 # to make a method abstract, we use the decorator @abstractmethod
+# ----
+# Databases are places where you store data, organized
+# Database is organized into tables (Rows and Columns)
+# SQLite can run in memory or a single file
+# Data inside has types (text,integer,date)
+# to use sqlite we import its module
+#! TO UNDERSTAND DATABASES WE FIRST NEED TO UNDERSTAND THROUGHOLY!!!!!!! ITS A DEEP SUBJECT
+# sqlite3.connect("<database file>") connects the database file to our program and if the file doesn't exist it will create it
+# * database files end with db extension (commonly used extension .db)
+# <connection>.execute("<sql query>") executes a certain sql query
+# TODO sql queries are written in SQL "language"
+# sql commands are uppercase and identifiers are mostly lowercase (common practice)
+# to close the database db.close()
+# * we can use "if not exists" within our query so if the database exists it'll not raise an exception
