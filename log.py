@@ -112,3 +112,13 @@
 # sql commands are uppercase and identifiers are mostly lowercase (common practice)
 # to close the database db.close()
 # * we can use "if not exists" within our query so if the database exists it'll not raise an exception
+# We can install sqlite for windows to use cli instead (same as what we're doing here in python)
+# operations in SQL are done by "cursor" not the connection itself
+# commit: save all changes
+# <connection variable>.cursor() can be assigned to variable as a cursor variable
+# queries are not actually applied unless you commit or "save" these changes to the database
+#? to insert data within the database => insert into <table name>(column names) values(column names)
+# select keyword in sql means to return or "read"
+# <cursorname>.fetchone() => returns one record or none if no more rows are avaliable
+# fetchall() => returns all the rows of a query result as a list of tuples, an empty list is returned if there is no record to fetch
+# fetchmany(size) => returns selective results from a query
